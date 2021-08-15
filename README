@@ -1,0 +1,15 @@
+Password Generator for JAVASCRIPT
+
+Using JS, connected and updated current code to complete a password generator that randomized and created a password based on user choice.
+User clicks button and is faced with various prompts!
+
+PsuedoCode: 
+WHEN user clicks button -> THEN prompt appears
+WHEN prompt appears -> THEN user selects PW length
+(If user inputs an invalid length, the msg "Hey! Read the PW length critera. Or else." displays.)
+WHEN user sets valid character length -> THEN length is validated, stored
+WHEN next prompt appears -> THEN user selects 'Y/N'/'CONFIRM/DECLINE' for designated chartype
+Repeat for other chartypes: lowercase, uppercase, numeric, special from list (!,?,$,%,@)
+WHEN user selects 'Yes/Confirm' for a chartype -> THEN that chartype is validated, stored
+WHEN all prompts answered -> THEN PW is generated according to confirmed critera
+WHEN PW is generated -> THEN PW is displayed
